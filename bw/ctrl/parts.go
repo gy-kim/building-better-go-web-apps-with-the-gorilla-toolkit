@@ -1,13 +1,14 @@
 package ctrl
 
 import (
-	"bw/model"
-	"bw/vm"
 	"encoding/json"
 	"html/template"
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/gy-kim/building-better-go-web-apps-with-the-gorilla-toolkit/bw/model"
+	"github.com/gy-kim/building-better-go-web-apps-with-the-gorilla-toolkit/bw/vm"
 )
 
 type partController struct {

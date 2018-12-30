@@ -1,9 +1,10 @@
 package ctrl
 
 import (
-	"bw/vm"
 	"html/template"
 	"net/http"
+
+	"github.com/gy-kim/building-better-go-web-apps-with-the-gorilla-toolkit/bw/vm"
 )
 
 type loginController struct {

@@ -1,13 +1,14 @@
 package main
 
 import (
-	"pistons/ctrl"
 	"fmt"
 	"html/template"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/gy-kim/building-better-go-web-apps-with-the-gorilla-toolkit/bw/ctrl"
 )
 
 func main() {

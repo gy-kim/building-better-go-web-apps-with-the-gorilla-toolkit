@@ -1,6 +1,6 @@
 package vm
 
-import "bw/model"
+import "github.com/gy-kim/building-better-go-web-apps-with-the-gorilla-toolkit/bw/model"
 
 type Base struct {
 	Employee *model.Employee
